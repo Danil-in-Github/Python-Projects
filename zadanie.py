@@ -4,7 +4,7 @@ for i in range(0, 88888888):
 print(a)
 
 spisok = [3, 4, 56, 100, 2, 2, 3] # Среднее арифметическое ряда [3, 4, 56, 100, 2, 2, 3]
-print(sum([3, 4, 56, 100, 2, 2, 3])/7)
+print(sum(spisok)/7)
 
 string_1 = "asdxfghyxyx" # Заменить в строке "asdxfghyxyx" все буквы "х" на "у"
 print(string_1.replace("x", "y"))
