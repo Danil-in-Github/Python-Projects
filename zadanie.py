@@ -12,7 +12,7 @@ print(string_1.replace("x", "y"))
 spisok_2 = [3, 4, 56, 100, 15, 2, 20, 30] #Сосчитать произведение чисел [3, 4, 56, 100, 15, 2, 20, 30], кратных и 3 и 5.
 multiple = 1
 for s in spisok_2:
-    if s%5 == 0 or s%3 == 0:
+    if s%5 == 0 and s%3 == 0:
         multiple *= s
 print(multiple)
 
