@@ -6,8 +6,9 @@ def str_compare(A, B):
 
     return count
 
+stroki = [("меч", "печь"), ("птица", "ученица"), ("университет", "специалитет"), ("exception", "interception")]
+
 if __name__ == "__main__":
-    stroki = [("меч", "печь"), ("птица", "ученица"), ("университет", "специалитет"), ("exception", "interception")]
     for s, t in stroki:
         print(s, t, str_compare(s, t))
 
