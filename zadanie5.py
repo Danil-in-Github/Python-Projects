@@ -1,4 +1,4 @@
-def str_compare(A, B):  # Старый код
+def str_compare(A, B):  # старый код
     ngrams = [A[i:i + 3] for i in range(len(A))]
     count = 0
     for ngram in ngrams:
@@ -14,7 +14,7 @@ if __name__ == "__main__":
         print(s, t, str_compare(s, t))
 
 
-# Проведенная ревизия кода на соответствие PEP8:
+# проведенная ревизия кода на соответствие PEP8:
 
 def str_compare(first, second):  # имена аргументов функции заменены на имена, начинающиеся со строчной буквы,
     # и длиной более одного символа.
